@@ -1,0 +1,26 @@
+{
+  "name": "zm-counting",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "module": "dist/counting.es.js",
+  "files": [
+    "dist",
+    "src/counting.ts"
+  ],
+  "description": "A simple counting library for JavaScript",
+  "keywords": ["counting", "timer"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
