@@ -8,6 +8,7 @@
   "version": "0.0.1",
   "type": "module",
   "module": "dist/counting.es.js",
+  "types": "dist/counting.d.ts",
   "files": [
     "dist",
     "src/counting.ts"
